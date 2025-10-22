@@ -4,7 +4,7 @@ A modern, full-stack web application built with **Java**, **JDBC**, **MySQL**, a
 
 ## 🖼️ Application Preview
 
-![Frontend Preview](frontend.png)
+![Frontend Preview](Front-End.png)
 
 *Beautiful blue-white themed interface with modern glass-morphism design*
 
