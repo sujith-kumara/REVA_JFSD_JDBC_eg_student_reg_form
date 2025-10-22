@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Student Management (Java + JDBC)</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h2>Student Management (CRUD Example)</h2>
+
+  <form id="studentForm" method="POST" onsubmit="return validateForm()">
+    <input type="text" name="name" id="name" placeholder="Enter Name" required>
+    <input type="text" name="srn" id="srn" placeholder="Enter SRN" required>
+    <button type="submit">Add Student</button>
+  </form>
+
+  <h3>Search Students</h3>
+  <form method="POST">
+    <input type="text" name="search" placeholder="Search by Name or SRN">
+    <button type="submit">Search</button>
+  </form>
+
+  <h3>Student List</h3>
+  <table>
+    <tr><th>ID</th><th>Name</th><th>SRN</th><th>Actions</th></tr>
+    {{table}}
+  </table>
+</div>
+
+</body>
+</html>
