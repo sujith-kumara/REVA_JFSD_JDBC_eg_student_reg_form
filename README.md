@@ -37,7 +37,7 @@ A modern, full-stack web application built with **Java**, **JDBC**, **MySQL**, a
 
 1. **Clone the repository**
    ```bash
-   git clone [<repository-url>](https://github.com/sujith-kumara/REVA_JFSD_JDBC_eg_student_reg_form.git)
+   git clone https://github.com/sujith-kumara/REVA_JFSD_JDBC_eg_student_reg_form.git
    cd jdbc-crud-docker
    ```
 
